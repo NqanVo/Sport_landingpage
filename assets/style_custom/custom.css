@@ -8,3 +8,17 @@ body{
 .cart{
     background-image: radial-gradient(circle, #6b6d89, #5f6184, #53557e, #464979, #3a3e73);
 }
+@keyframes drop_down{
+    0%{
+        margin-top: -50%;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+
+.img-primary{
+    animation: drop_down ease-out 1s;
+}
